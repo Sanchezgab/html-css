@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+       
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin: 0;
+}
+
+
+span {
+    margin: 5px;
+    background-color: darkgreen;
+    padding: 3px;
+    border: 4px;
+    border-style: solid;
+}
+
+.animacao1:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.animacao2:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.animacao3:hover {
+    color:black;
+    background-color: greenyellow;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: greenyellow;
+}
+
+nav {
+    background-color: rgb(117, 117, 117);
+    box-shadow: 2px 2px 2px gray;
+
+}
+
+
+nav > a {
+    
+    margin-right: 30px;
+}
+header {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:2px 2px 2px rgb(63, 63, 63);
+    margin: 10px;
+    
+}
+header > h1 {
+    text-align: center;
+    text-shadow:5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+    
+.noticias {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 17px;
+    border-style: solid;
+    border: 4px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 4px 5px rgba(51, 51, 51, 0.281);
+    margin: 10px;
+    
+} 
+
+footer {
+    background-color: black;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding: 1px;
+} 
+
+.bola{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+div:hover {
+    background-color: blueviolet;
+    color: aliceblue;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section class="assuntos">
+
+        </section>
+        <section class="noticias">
+            <h2>Notícia sobre o Brasil</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque maxime officiis cum repudiandae nam totam reiciendis libero minus magnam quisquam qui eveniet atque labore delectus perspiciatis laudantium, dolor culpa!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2><span class="animacao1">Notícias</span>  <span class="animacao2">Futebol</span> <span class="animacao3">Política</span></h2>
+                
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Sanchez</p>
+    </footer>
+    <div class="bola">
+        <p>coisas</p>
+
+    </div>
+    
+</body>
+</html>
